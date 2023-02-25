@@ -10,7 +10,7 @@ import Foundation
 
 extension ColorAsset {
 	
-	public struct Wrapper : Codable {
+	public struct Wrapper : Codable, Hashable {
 		public var idiom:Idiom
 		public var color:Color
 		public var subtype:SubType?

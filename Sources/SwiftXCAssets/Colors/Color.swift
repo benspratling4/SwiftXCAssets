@@ -11,7 +11,7 @@ import Foundation
 
 extension ColorAsset {
 	
-	public struct Color : Codable {
+	public struct Color : Codable, Hashable {
 		
 		public var colorSpace:ColorSpace?
 		public var components:Components?
@@ -41,7 +41,7 @@ extension ColorAsset {
 
 extension ColorAsset.Color {
 	
-	public struct Components : Codable {
+	public struct Components : Codable, Hashable {
 		public var alpha:Component?
 		public var blue:Component?
 		public var green:Component?

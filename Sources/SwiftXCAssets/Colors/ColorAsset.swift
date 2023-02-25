@@ -41,7 +41,7 @@ public struct ColorAsset : Asset {
 
 extension ColorAsset {
 	
-	public struct Contents : Codable {
+	public struct Contents : Codable, Hashable {
 		
 		public var colors:[Wrapper]?
 		public var info:Info?

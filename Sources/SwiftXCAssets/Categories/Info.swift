@@ -9,7 +9,7 @@ import Foundation
 
 
 
-public struct Info : Codable {
+public struct Info : Codable, Hashable {
 	public var author:String?	//xcode
 	public var version:Int?
 	public init(author: String? = nil, version: Int? = nil) {

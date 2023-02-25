@@ -10,7 +10,7 @@ import Foundation
 
 extension ColorAsset.Color {
 	
-	public enum ColorSpace : String, Codable {
+	public enum ColorSpace : String, Codable, Hashable {
 		case srgb
 		case extendedsRGB = "extended-srgb"
 		case extendedLienarSRGB = "extended-linear-srgb"

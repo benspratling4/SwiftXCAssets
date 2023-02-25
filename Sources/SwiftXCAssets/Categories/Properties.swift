@@ -9,7 +9,7 @@ import Foundation
 
 
 
-public struct Properties : Codable {
+public struct Properties : Codable, Hashable {
 	public var localizable:Bool?
 	
 	public init(localizable: Bool? = nil) {
