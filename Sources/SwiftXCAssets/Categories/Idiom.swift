@@ -10,7 +10,7 @@ import Foundation
 
 
 public enum Idiom:String, Codable, Hashable {
-	case universal, iphone, ipad, car, mac, watch, tv
+	case universal, iphone, ipad, car, mac, watch, tv, vision
 }
 
 //idiom would need to be .ipad
